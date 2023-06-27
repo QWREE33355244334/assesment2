@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    
+          
+        
+      
+    <form action="" style="text-align: center;">
+        <p>
+            <label for ="email">Email</label>
+            <input type ="text" id="file1" onkeyup="return validateEmail()" placeholder="enter your email">
+            <span id="err4"></span>
+        </p>
+        <p>
+            <label for ="phone number">phone number</label>
+            <input type="hl" id="dot" onkeyup="return validatenumber()" placeholder="enter your phone number">
+            <span id="err1"></span>
+        </p> 
+        <p>
+            <label for ="password">password:
+                <input type ="password" id="pass" onkeyup="return validatepass()" placeholder="enter your password"/>
+            </label>
+        </p>
+        <p><span id="err2"></span></p>
+        <p>
+            <div id="passwordstrength">
+                <span id="poor"></span>
+                <span id="weak"></span>
+                <span id="strong"></span>
+            </div>
+            <div id="passwordinfo"></div>
+            <button type="submit" onclick="return validateform()">LOG IN</button>
+        </p>
+        <script src="do.js"></script>
+        </form>
+    </center>
+    </form>
+</body>
+</html>
